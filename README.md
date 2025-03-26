@@ -16,7 +16,7 @@ This is a project repo from class AD450 at North Seattle College, also will be u
 
 In your terminal, navigate to a location to download the repository.  Clone the repository with the command below.
 ```bash
-git clone https://github.com/cheider/AD450-FinalProject
+git clone https://github.com/cheider/LeagueofLegends-RankedGame-Analysis
 ```
 Check that Conda is installed by running:
 ```bash

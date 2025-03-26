@@ -5,18 +5,26 @@
 This is a project repo from class AD450 at North Seattle College, also will be used as a portfolio project for statistical analysis 
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [File Structure](#file-structure)
-3. [Main](#main)
-4. [Report](REPORT.md)
-5. [Contribution](CONTRIBUTION.md)
+1. [Dataset Sources](#dataset-sources)
+2. [Installation](#installation)
+3. [File Structure](#file-structure)
+4. [Main](main.ipynb)
+5. [Report](REPORT.md)
+6. [Contribution](CONTRIBUTION.md)
 
+## Dataset sources
+|File|Description|Use|Source|
+|:--|:--|:--|:--|
+|champion_info.json|file that contains Champion names cross reference|Cross reference|https://www.kaggle.com/datasets/datasnaek/league-of-legends |
+|champion_info_2.json|2nd file that contains Champion names cross reference|Cross reference|https://www.kaggle.com/datasets/datasnaek/league-of-legends |
+|games.csv|Main file that contains the game info to analyze|Main dataset|https://www.kaggle.com/datasets/datasnaek/league-of-legends |
+|summoner_spell_info.json|Contains cross reference of champion spells to numbers in data set|Cross reference|https://www.kaggle.com/datasets/datasnaek/league-of-legends |
 
 ## Installation
 
 In your terminal, navigate to a location to download the repository.  Clone the repository with the command below.
 ```bash
-git clone https://github.com/cheider/AD450-FinalProject
+git clone https://github.com/cheider/LeagueofLegends-RankedGame-Analysis
 ```
 Check that Conda is installed by running:
 ```bash
@@ -49,4 +57,6 @@ conda lol_stats_env
 |images|various|houses chart images files for report|
 |test|various|houses test and unit tests for various functions within this project|
 |util||contains processing and generation files for input and output used in the main notebook file|
+
+
 

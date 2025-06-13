@@ -9,7 +9,7 @@ This is a project repo from class AD450 at North Seattle College, also will be u
 2. [Installation](#installation)
 3. [File Structure](#file-structure)
 4. [Main](main.ipynb)
-5. [Report](REPORT.md)
+5. [Report](report.md)
 6. [Contribution](CONTRIBUTION.md)
 
 ## Dataset sources
